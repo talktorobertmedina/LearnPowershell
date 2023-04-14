@@ -1,0 +1,1 @@
+get-service | where-object {$_.status -eq "Stopped" -and $_.starttype -eq "automatic" }

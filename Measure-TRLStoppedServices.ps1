@@ -1,0 +1,1 @@
+Get-Service | Where-Object -Property Status -EQ "Stopped" | Measure-Object | Select-Object -Property Count
